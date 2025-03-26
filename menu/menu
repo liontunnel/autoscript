@@ -8,7 +8,7 @@ sleep 0.7
 echo -e "\e[0m Succes...\e[0m"
 sleep 0.7
 echo
-echo -e "\e[0m By SanzTunnel..\e[0m"
+echo -e "\e[0m By LionTunnel..\e[0m"
 sleep 0.7
 echo
 clear
@@ -113,7 +113,7 @@ fun_bar() {
     tput cnorm
 }
 res1() {
-    wget https://raw.githubusercontent.com/Gatotwijanarko/capcapan/main/menu/menu.zip
+    wget https://raw.githubusercontent.com/liontunnel/autoscript/main/menu/menu.zip
     unzip menu.zip
     chmod +x menu/*
     mv menu/* /usr/local/sbin
@@ -167,7 +167,7 @@ SERONLINE=$(uptime -p | cut -d " " -f 2-10000)
 clear
 MYIP=$(curl -sS ipv4.icanhazip.com)
 echo ""
-izinsc="https://raw.githubusercontent.com/Gatotwijanarko/capcapan/main/Regist"
+izinsc="https://raw.githubusercontent.com/liontunnel/autoscript/main/Regist"
 # USERNAME
 rm -f /usr/bin/user
 username=$(curl ${izinsc} | grep $MYIP | awk '{print $2}')
@@ -294,7 +294,7 @@ r="\033[1;31m"  #REDTERANG
 a=" ${CYAN}ACCOUNT PREMIUM" 
 echo -e " "
 echo -e " ${z}╭══════════════════════════════════════════════════════════╮${NC}"
-echo -e " ${z}│$NC${f}                      CAPCAPANSTORE-VPN                     $NC${z}│$NC"
+echo -e " ${z}│$NC${f}                      LIONSTORE-VPN                     $NC${z}│$NC"
 echo -e " ${z}╰══════════════════════════════════════════════════════════╯${NC}"
 echo -e " ${z}╭══════════════════════════════════════════════════════════╮${NC}"
 echo -e " ${z}│$NC$r ⇲ $NC$y System OS ${NC}     $Blue=$NC $MODEL${NC}"
@@ -447,7 +447,7 @@ update
 ;;
 24)
 clear
-wget -q https://raw.githubusercontent.com/Gatotwijanarko/capcapan/main/bot/bot.sh && chmod +x bot.sh && ./bot.sh
+wget -q https://raw.githubusercontent.com/liontunnel/autoscript/main/bot/bot.sh && chmod +x bot.sh && ./bot.sh
 ;;
 25)
 clear
