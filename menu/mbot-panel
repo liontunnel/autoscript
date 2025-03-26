@@ -18,9 +18,9 @@ ORANGE='\033[0;33m'
 LIGHT='\033[0;37m'
 grenbo="\e[92;1m"
 
-bot="https://raw.githubusercontent.com/Gatotwijanarko/capcapan/main/bot/bot.sh"
+bot="https://raw.githubusercontent.com/liontunnel/autoscript/main/bot/bot.sh"
 red() { echo -e "\\033[32;1m${*}\\033[0m"; }
-IPVPES="https://raw.githubusercontent.com/Gatotwijanarko/capcapan/main/Regist"
+IPVPES="https://raw.githubusercontent.com/liontunnel/autoscript/main/Regist"
 clear
 ipsaya=$(curl -sS ipv4.icanhazip.com)
 data_server=$(curl -v --insecure --silent https://google.com/ 2>&1 | grep Date | sed -e 's/< Date: //')
@@ -37,7 +37,7 @@ checking_sc() {
     echo -e "            ${RED}PERMISSION DENIED !${NC}"
     echo -e "   \033[0;33mYour VPS${NC} $ipsaya \033[0;33mHas been Banned${NC}"
     echo -e "     \033[0;33mBuy access permissions for scripts${NC}"
-    echo -e "             \033[0;33mTelegram${NC} t.me/capcapan"
+    echo -e "             \033[0;33mTelegram${NC} t.me/kingstunnel"
     echo -e "\033[1;93m────────────────────────────────────────────\033[0m"
     exit
   fi
