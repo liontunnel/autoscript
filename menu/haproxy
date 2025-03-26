@@ -58,7 +58,7 @@ clear
 
 
 
-REPO="https://raw.githubusercontent.com/Gatotwijanarko/capcapan/main/config/"
+REPO="https://raw.githubusercontent.com/liontunnel/autoscript/main/config/"
 # fixhap fix Haproxy
 clear
 echo -e "${BlueCyan} ------------------------- ${Xark} "
