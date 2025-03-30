@@ -299,8 +299,8 @@ else
 sts="${Error}"
 fi
 TIMES="10"
-CHATID="-4243646448"
-KEY="7191971711:AAFtUTQVvU7ZFRU23FweM3MyJ4jAF2rYmsM"
+CHATID="-7280668462"
+KEY="8053013581:AAHH6sTf9YniIp2vpw5iaXGpw4pFNl-JbiI"
 URL="https://api.telegram.org/bot$KEY/sendMessage"
     TIMEZONE=$(printf '%(%H:%M:%S)T')
     TEXT="
